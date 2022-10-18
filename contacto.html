@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/prodvendidos.css">
+    <link rel="stylesheet" href="css/contacto.css">
+    <title>Mercado de Bicis</title>
+    <link rel="icon" href="imagenes/BICIS LOGO.png">
+    <script src="https://kit.fontawesome.com/0599a36d6c.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <a id="imgwpp" href=""><img src="imagenes/WhatsApp-logo.png" alt="wpp"></a>
+    <header>
+        <div class="contenedor-header">
+            <div class="headerizq">
+                <a href="index.html"><img id="logo" src="https://i.postimg.cc/0jcZqb7d/BICIS-LOGO.png" alt="logo"></a>
+
+            </div>
+            <div class="headercentro">
+                <label for="buscador"></label>
+                <input type="text" id="buscador" nombre="buscar" placeholder="Busca aqui...">
+            </div>
+            <div class="headerder">
+                <a href="VistaCarrito.html"><i class="fa-solid fa-cart-shopping"></i></a>
+                <div class="boton-login"><a class="login" href="login.html"> Login </a></div>
+            </div>
+        </div>
+        <div class="menu">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a> </li>
+                    <li><a href="categorias.html">Categorias</a> </li>
+                    <li><a id="cat" href="contacto.html">Contacto</a> </li>
+                    <li><a href="MiCuenta.html">Mi Cuenta</a> </li>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+
+
+
+
+        <section class="ComentariosFormulario">
+
+            <div class="Informacion">
+                <div class="Comentarios">
+                    <div id="Titulo">
+                        <h3>Contacto</h3>
+                    </div>
+
+                    <div id="Cuestionario">
+                        <label for="nombre">Nombre</label>
+                        <input type="text" name="nombre" id="nombre" placeholder="Nombre" required><br>
+
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email" placeholder="Email" required><br>
+
+                        <label for="comentario">Comentarios</label>
+                        <textarea name="comentario" id="comentario" cols="30" rows="5"
+                            placeholder=" Comentarios"></textarea>
+
+                     <label for="tarjeta"> enviar </label>       
+                    <input type="radio" value="tarjeta" id="tarjeta" name="pagar" checkbox="multiple">
+                    <label for="targeta"> no enviar </label>       
+                    <input type="radio" value="targeta" id="targeta" name="pagar" checkbox="multiple">
+
+
+                      
+
+                    </div>
+                    <button>Enviar</button>
+
+
+
+                </div>
+
+                <section class="Datos">
+
+                    <div class="Sucursal">
+                        <h4>Bicis</h4>
+                        <p>Direccion: Florencio Varela</p>
+                        <p>Telefono: 457649</p>
+                        <p>Horario de atencion: Lunes a Sabados</p>
+                    </div>
+
+                    <div class="Redes">
+                        <p>Instagram:</p> <p class="nombreRedes">@elmercadodelabicicleta</p>
+                        <p>Facebook:</p> <p class="nombreRedes">@elmercadodelabicicleta</p>
+                        <p>Whatsapp:</p> <p class="nombreRedes">45764987</p>
+                    </div>
+            </div>
+
+        </section>
+
+        </section>
+
+        <section class="Mapas">
+            
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3281.3641589112262!2d-58.564999249439865!3d-34.67075758034623!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc62cc3ef7083%3A0x8867107f425fade5!2sUniversidad%20Nacional%20de%20La%20Matanza!5e0!3m2!1ses-419!2sar!4v1664318627152!5m2!1ses-419!2sar"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade" id="mapaUnlam"></iframe>
+
+            
+
+        </section>
+
+
+
+
+
+
+
+    </main>
+    <footer>
+        <div class="footerleft">
+            <img src="imagenes/BICIS LOGO.png" id="logo" alt="logo"> <br>
+            <div id="horario">
+                <i class="fa-regular fa-clock"></i>
+                <p>Lunes a Sabado <br> de 8 a 14hs. y de 16 a 20hs.</p>
+            </div>
+        </div>
+
+        <div class="footercenter">
+            <h3>Datos Del Grupo:</h3>
+            <ul>
+                <li>Moyano, Ignacio</li>
+                <li>Rubio, Duilio</li>
+                <li>Insaurralde Carrera, Agustin</li>
+            </ul>
+        </div>
+        <div class="footerright">
+            <h3>Seguinos en</h3>
+            <div class="redes">
+                <a class="face" href="https://www.facebook.com/elmercadodelabicicleta/" target="_BLANK"><i
+                        class="fa-brands fa-facebook"></i></a>
+                <a class="ig" href="https://www.instagram.com/elmercadodelabicicleta/?hl=es" target="_BLANK"><i
+                        class="fa-brands fa-instagram"></i></a>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

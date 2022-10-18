@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/cssRecuperarContraseña.css">
+    <title>Mercado de Bicis</title>
+    <link rel="icon" href="imagenes/BICIS LOGO.png">
+    <script src="https://kit.fontawesome.com/0599a36d6c.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <main>
+        <section class="contenedorRecupero">
+            <div class="cont-logo">
+                <a href="index.html"><img id="logo" src="https://i.postimg.cc/0jcZqb7d/BICIS-LOGO.png" alt="logo"></a>
+            </div>
+            <div class="cajaRecupero1">
+                <p>Por favor, introduzca el codigo enviado a su dirección de correo</p>
+                <form id="recuperarContraseña" action="index.html" method="post">
+                    <div class="campoDelFormulario">
+                        <label for="codigo">Codigo:</label>
+                        <input type="number" name="codigo" placeholder="Ingrese su codigo unico" required>
+                    </div>
+                    <div class="campoDelFormulario">
+                        <label for="nuevaContraseña">Nueva Contraseña:</label>
+                        <input type="password" name="nuevaContraseña" placeholder="Ingrese su nueva contraseña" required>
+                    </div>
+                    <div class="campoDelFormulario">
+                        <label for="repitaContraseña">Repita Contraseña</label>
+                        <input type="password" name="repitaContraseña" placeholder="Repita su contraseña:" required>
+                    </div>
+                </form>
+            </div>
+            <div class="cajaRecupero2">
+                <button class="Boton" form="Registro">Completar</button>
+                <a href="index.html" class="Boton">Volver a Inicio</a> 
+            </div>
+        </section>
+    </main>
+</body>

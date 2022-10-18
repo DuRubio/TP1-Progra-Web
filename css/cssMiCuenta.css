@@ -1,0 +1,110 @@
+
+
+.NombreYFoto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.Nombre {
+    font-size: smaller;
+}
+
+.EncabezadoTabla {
+    display: flex;
+    justify-content: space-around;
+    text-align: left;
+    margin: 1%;
+}
+
+.InformacionCargada {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    width: 712px;
+    height: 400px;
+    margin: auto;
+}
+
+#FotoDePerfil {
+    width: 150px;
+    margin: 15px;
+}
+
+.DatosUsuario {
+    margin: auto;
+
+}
+
+
+
+table {
+    width: 100%;
+    text-align: center;
+
+
+
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+
+}
+
+th {
+    background-color: rgb(218, 109, 19);
+}
+
+td,
+th {
+    padding: 10px;
+    width: 350px;
+
+
+}
+
+.MetodosDePago {
+    width: 700px;
+}
+
+#Cruz1{
+    height: 4%;
+    position: absolute;
+    left: 101%;
+    bottom: 62.5%;
+}
+#Cruz2{
+    height: 4%;
+    position: absolute;
+    left: 101%;
+    bottom: 53%;
+}
+#Cruz3{
+    height: 4%;
+    position: absolute;
+    left: 101%;
+    bottom: 23.5%;
+}
+#Cruz4{
+    height: 4%;
+    position: absolute;
+    left: 101%;
+    bottom: 13.5%;
+}
+
+.delete:hover{
+    filter: invert(17%) sepia(100%) saturate(6398%) hue-rotate(14deg) brightness(106%) contrast(92%);
+}
+
+.boton{
+    padding: 4% 15% 4% 15%;
+}
+
+footer{
+    margin-top: 40px;
+}

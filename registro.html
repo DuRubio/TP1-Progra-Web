@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/cssRegistro.css">
+    <title>Mercado de Bicis</title>
+    <link rel="icon" href="imagenes/BICIS LOGO.png">
+    <script src="https://kit.fontawesome.com/0599a36d6c.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <main>
+        <section class="contenedorRegistro">
+            <div class="cont-logo">
+                <a href="index.html"><img id="logo" src="https://i.postimg.cc/0jcZqb7d/BICIS-LOGO.png" alt="logo"></a>
+            </div>
+            <div class="cajaRegistro1">
+                <form id="Registro" action="index.html" method="post">
+                    <div class="campoDelFormulario">
+                        <label for="Email">Email:</label>
+                        <input type="email" name="email" placeholder="Ingrese su correo" required>
+                    </div>
+                    <div class="campoDelFormularioPequeño">
+                        <label for="Nombre">Nombre:</label>
+                        <input type="text" name="nombre" placeholder="Ingrese su nombre" required>
+                    </div>
+                    <div class="campoDelFormularioPequeño">
+                        <label for="Apellido">Apellido:</label>
+                        <input type="text" name="apellido" placeholder="Ingrese su apellido" required>
+                    </div>
+                    <div class="campoDelFormularioPequeño">
+                        <label for="Contraseña">Contraseña:</label>
+                        <input type="password" name="contraseña" placeholder="Ingrese su contraseña" required>
+                    </div>
+                    <div class="campoDelFormularioPequeño">
+                        <label for="Repetir Contraseña">Repita Contraseña:</label>
+                        <input type="password" name="contraseña repetida" placeholder="Repita su contraseña" required>
+                    </div>
+                </form>
+            </div>
+            <div class="cajaRegistro2">
+                <button class="Boton" form="Registro">Registrarse</button>
+                <a href="index.html" class="Boton">Volver a Inicio</a> 
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>

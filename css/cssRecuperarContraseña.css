@@ -1,0 +1,115 @@
+:root {
+    --naranja: rgb(236, 128, 39);
+    --gris: rgb(228, 228, 228);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    display: grid;
+    grid-template-rows: 1fr;
+}
+
+.contenedorRecupero{
+    margin: 5% auto;
+    width:30%;
+    border:2px solid black;
+    border-radius: 30px;
+    background-color:rgb(16 60 126);
+}
+
+.cont-logo{
+    width: 40%;
+    margin: 10px auto;
+    height: 85px;
+    display: flex;
+    justify-content: center;
+   
+}
+.cont-logo a{
+    display: flex;
+    justify-content: center;
+    margin:auto;
+}
+
+#logo{
+    width: 80%;
+    height: 100%;
+    border-radius: 20px;
+    border: 3px solid var(--naranja);
+}
+
+.cajaRecupero1{
+    border: 2px solid rgba(189, 176, 176, 0.493);
+    width: 80%;
+    height: 50%;
+    margin:20px auto;
+    padding: 30px 0px;
+    background-color: rgb(16 60 126);
+    color: wheat;
+}
+
+.cajaRecupero1 p{
+    font-weight: bold;
+    font-size: large;
+    text-align: center;
+}
+
+.cajaRecupero1 form{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.campoDelFormulario{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.campoDelFormulario label{
+    margin:0px 20px;
+}
+
+.campoDelFormulario input{
+    margin:0px 20px;
+    height: 40px;
+    border: 2px solid rgba(189, 176, 176, 0.493);
+    padding-left: 5px;
+    font-size: 15px;
+}
+
+.campoDelFormulario input:hover{
+    border: 2px solid var(--naranja);
+}
+
+.cajaRecupero2{
+    display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   width: 55%;
+   margin: 10px auto 20px auto;
+ }
+ 
+ .Boton{
+    color:white;
+    text-decoration: none;
+    font-size: 100%;
+    border: 2px solid white;
+    border-radius: 10px;
+    background-color: var(--naranja);
+    cursor: pointer;
+    padding: 12px 2px;
+ }
+ 
+ .Boton:hover{
+    border: black solid 2px;
+    transition: 0.3s;
+ }

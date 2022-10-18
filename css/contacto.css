@@ -1,0 +1,61 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    
+}
+
+.ComentariosFormulario{
+   
+    margin: auto;
+    width: 500px;
+    height: 200px;
+
+
+}
+
+.Informacion{
+    margin-top: 50px;
+    display: flex;
+
+
+}
+
+#Cuestionario input{
+    margin: 5px;
+    padding: 5px;
+  
+}
+
+.Mapas{
+    margin: auto;
+    width: 700px;
+    height: 400px;
+}
+
+#mapaUnlam{
+    display: block;
+    margin-top: 80px;
+    width: 700px;
+    height: 300px;
+    margin-bottom: 50px;
+
+   
+}
+
+.Comentarios{
+margin-left: 50px;
+}
+
+.Redes{
+margin-top: 10px;
+
+}
+
+.nombreRedes{
+    text-decoration: underline;
+}
+
+.Datos p{
+padding-top: 3px;
+
+}

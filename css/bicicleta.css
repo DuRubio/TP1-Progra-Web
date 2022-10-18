@@ -1,0 +1,212 @@
+:root {
+  --naranja: rgb(218, 109, 19);
+  --gris: rgb(231, 228, 228);
+}
+
+.prod-main{
+  width: 70%;
+  margin: 30px auto;
+  height:auto;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.bici-main{
+  width: 100%;
+  height:400px;
+  background-image: url(../imagenes/masvendida3.jpg);
+  background-color: white;
+  background-size:contain;
+  background-repeat: no-repeat;
+  border-right: 4px solid black;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.966);
+  position:relative;
+}
+  
+  
+.preciosbicimain{
+  position:absolute;
+  bottom: 10px;
+  right:0px;
+  background-color: rgba(218, 109, 19, 0.74);
+  padding-left: 35px;
+  padding-right: 20px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  font-size: 25px;
+  color:black;
+}
+
+.info{
+  padding-left: 30px;
+  padding-right:20px;
+  width: 100%;
+}
+
+.info h2{
+  margin:0px;
+  text-align: left;
+}
+
+.info p{
+  text-align: justify;
+}
+.conteinerdiv{
+  width: 100%;
+  height: 200px;
+  display: flex;
+  justify-content: flex-end;
+  
+  
+}
+.form-cart{
+  
+  margin:10px 300px 0px 0px;
+  display: flex;
+  width: 10%;
+  height: 40px;
+  justify-content: space-around;
+  
+  align-items: center;
+}
+#add{
+ width: 40px; 
+ height: 30px;
+ border-radius: 5px;
+ 
+
+}
+
+.form-cart a{
+  background-color: var(--naranja);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 20px;
+  padding: 0px 10px;
+  height: 40px;
+  width: 140px;
+  border-radius: 5px;
+  color:black;
+  border: 2px white solid;
+  font-weight: 600;
+  transition: 1s;
+}
+  
+  #carrito{
+    font-size: 30px;
+  }
+  .form-cart a:hover{
+  transform: scale(1.2);
+ 
+  }
+  
+  
+  
+  .prod-similares{
+    border-top:4px solid rgba(0, 0, 0, 0.582);
+    width: 100%;
+    background-color: white;
+    
+
+  }
+
+  #prod-sim{
+    font-size: 30px;
+    width:280px;
+    margin:30px auto ;
+    border-bottom: 2px black dotted;
+    text-align: center;
+  }
+
+  .prod-vendido{
+    margin: 25px auto;
+    width: 300px;
+    height: 200px;
+    position:relative;
+    display:flex ;
+    flex-direction: column;
+    justify-content:first baseline;
+    background-color: rgb(255, 255, 255);
+    
+}
+
+
+  .contenedor-bicis{
+    width: 80%;
+    height: 350px;
+    margin:30px auto 0px;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: white;
+  }
+
+  .container-bici7{
+    width: 100%;
+    height:180px;
+    background-image: url(../imagenes/masvendida7.jpg);
+    background-size:contain;
+    background-repeat: no-repeat;
+    border-right: 4px solid black;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.966);
+    position:relative;
+}
+.container-bici8{
+    width: 100%;
+    height:180px;
+    background-image: url(../imagenes/masvendida8.jpg);
+    background-size:contain;
+    background-repeat: no-repeat;
+    border-right: 4px solid black;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.966);
+    position:relative;
+    
+}
+
+.container-bici9{
+    width: 100%;
+    height:180px;
+    background-image: url(../imagenes/mtb7.jpg);
+    background-size:contain;
+    background-repeat: no-repeat;
+    border-right: 4px solid black;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.966);
+    position:relative;
+    
+}
+.preciosbici{
+    position:absolute;
+    bottom: 10px;
+    right:0px;
+    background-color: rgba(218, 109, 19, 0.74);
+    padding-left: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    font-size: 22px;
+    color:black;
+}
+
+.prod-vendido .fa-solid{
+    position:absolute;
+    bottom: -45px;
+    right: 5px;
+    font-size: 30px;
+    color:black;
+}
+.prod-vendido h4{
+    margin-top:10px;
+    font-size: 18px;
+    width:80%;
+    text-align: center;
+    background-color: rgba(7, 6, 6, 0.74);
+    border-radius: 20px;
+    padding: 3px 16px;
+    color:white;
+   
+}
+
+
+
+
+

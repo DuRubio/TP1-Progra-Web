@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mercado de Bicis</title>
+    <link rel="icon" href="imagenes/BICIS LOGO.png">
+    <link rel="stylesheet" href="css/cssNuevaTarjeta.css">
+</head>
+
+<body>
+    <main>
+        <section class="contenedorNuevaTarjeta">
+            <div class="cont-logo">
+                <a href="index.html"><img id="logo" src="https://i.postimg.cc/0jcZqb7d/BICIS-LOGO.png" alt="logo"></a>
+            </div>
+            <div class="cajaNuevaTarjeta1">
+                <form id="Nueva_Tarjeta" action="#" method="post">
+                    <div class="campoDelFormulario">
+                        <label for="Alias">Alias</label>
+                        <input type="text" name="alias" placeholder="Ingrese su Alias" required>
+                    </div>
+                    <div class="campoDelFormulario">
+                        <label for="numeroTarjeta">Numero de la Tarjeta</label>
+                        <input type="number" name="NumeroTarjeta" placeholder="Ingrese su Numero de Tarjeta" required>
+                    </div>
+                    <div class="campoDelFormularioPequeño">
+                        <label for="Codigo">Codigo</label>
+                        <input type="number" name="Codigo" placeholder="Ingrese su Codigo" required> 
+                    </div>
+                    <div class="campoDelFormularioPequeño">
+                        <label for="Vencimiento">Vencimiento</label>
+                        <input type="date" name="Vencimiento" placeholder="Ingrese el Vencimiento" required>
+                    </div>
+                    <div class="campoDelFormularioPequeño">
+                        <label for="Nombre">Nombre</label>
+                        <input type="text" name="Nombre" id="Nombre" placeholder="Ingrese su Nombre" required>
+                    </div>
+                    <div class="campoDelFormularioPequeño">
+                        <label for="Apellido">Nombre</label>
+                        <input type="text" name="Apellido" id="Apellido" placeholder="Ingrese su Apellido" required>
+                    </div>
+                </form>
+            </div>
+            <div class="cajaNuevaTarjeta2">
+                <button class="Boton" form="Nueva_Tarjeta">Guardar Tarjeta</button>
+                <a href="index.html" class="Boton">Volver a Inicio</a> 
+            </div>
+        </section>
+    </main>
+
+
+</body>
+
+
+</html>

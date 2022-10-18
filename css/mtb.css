@@ -1,0 +1,175 @@
+.MasVendidos {
+    margin: 40px auto;
+    width: 60%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    background-color: white;
+}
+
+.prod-vendido{
+    margin: 25px auto;
+    width: 300px;
+    height: 260px;
+    position:relative;
+    display:flex ;
+    flex-direction: column;
+    justify-content:first baseline;
+    background-color: rgb(255, 255, 255);
+    
+    
+}
+
+.container-bici1{
+    width: 100%;
+    height:180px;
+    background-image: url(../imagenes/masvendida1.jpg);
+    background-size:contain;
+    background-repeat: no-repeat;
+    border-right: 4px solid black;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.966);
+    position:relative;
+}
+.container-bici2{
+    width: 100%;
+    height:180px;
+    background-image: url(../imagenes/masvendida2.jpg);
+    background-size:contain;
+    background-repeat: no-repeat;
+    border-right: 4px solid black;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.966);
+    position:relative;
+}
+.container-bici3{
+    width: 100%;
+    height:180px;
+    background-image: url(../imagenes/masvendida3.jpg);
+    background-size:contain;
+    background-repeat: no-repeat;
+    border-right: 4px solid black;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.966);
+    position:relative;
+}
+.container-bici4{
+    width: 100%;
+    height:180px;
+    background-image: url(../imagenes/masvendida4.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    border-right: 4px solid black;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.966);
+    position:relative;
+}
+.container-bici5{
+    width: 100%;
+    height:180px;
+    background-image: url(../imagenes/mtb5.jpg);
+    background-size:contain;
+    background-repeat: no-repeat;
+    border-right: 4px solid black;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.966);
+    position:relative;
+}
+.container-bici6{
+    width: 100%;
+    height:180px;
+    background-image: url(../imagenes/mtb6.jpg);
+    background-size:contain;
+    background-repeat: no-repeat;
+    border-right: 4px solid black;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.966);
+    position:relative;
+}
+.container-bici7{
+    width: 100%;
+    height:180px;
+    background-image: url(../imagenes/masvendida7.jpg);
+    background-size:contain;
+    background-repeat: no-repeat;
+    border-right: 4px solid black;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.966);
+    position:relative;
+}
+.container-bici8{
+    width: 100%;
+    height:180px;
+    background-image: url(../imagenes/masvendida8.jpg);
+    background-size:contain;
+    background-repeat: no-repeat;
+    border-right: 4px solid black;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.966);
+    position:relative;
+    
+}
+
+.container-bici9{
+    width: 100%;
+    height:180px;
+    background-image: url(../imagenes/mtb7.jpg);
+    background-size:contain;
+    background-repeat: no-repeat;
+    border-right: 4px solid black;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.966);
+    position:relative;
+    
+}
+
+.preciosbici{
+    position:absolute;
+    bottom: 20px;
+    right:0;
+    background-color: rgba(218, 109, 19, 0.74);
+    padding-left: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    font-size: 22px;
+    color:black;
+}
+
+.prod-vendido .fa-solid{
+    position:absolute;
+    bottom: -45px;
+    right: 5px;
+    font-size: 30px;
+    color:black;
+}
+.prod-vendido h4{
+    margin-top:10px;
+    font-size: 18px;
+    width:80%;
+    text-align: center;
+    background-color: rgba(7, 6, 6, 0.74);
+    border-radius: 20px;
+    padding: 3px 16px;
+    color:white;
+   
+}
+
+.caract-sumar{
+    margin: 8px;
+    display:flex;
+    justify-content: space-between;
+}
+.caract-sumar a{
+    font-weight: 600;
+    font-size: 20px;
+    color:black;
+    margin-left: 40px;
+    font-style: oblique;
+    padding: 0px 3px;
+}
+
+#add{
+    margin-top:4px;
+    width: 30px;
+    border-radius: 2px;
+}
+.caract-sumar a:hover{
+    transform:translateX(7px);
+    transition:1s;
+    background-color: var(--naranja);
+    border-radius: 7px;
+    opacity:0.5;
+}
+
+

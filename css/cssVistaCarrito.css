@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.Carrito{
+    width: 477px;
+    height: 393px;
+    margin: auto;
+}
+
+.Productos{
+    position: relative;
+}
+
+
+table, th,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th,td{
+    padding: 5px;
+}
+
+th{
+    background-color: rgba(218, 109, 19, 0.849);
+}
+
+td{
+    background-color: rgb(189, 212, 247);
+}
+
+#Cruz1{
+    height: 6%;
+    position: absolute;
+    left: 99%;
+    bottom: 75%;
+}
+#Cruz2{
+    height: 6%;
+    position: absolute;
+    left: 99%;
+    bottom: 60.6%;
+}
+#Cruz3{
+    height: 6%;
+    position: absolute;
+    left: 99%;
+    bottom: 46.5%;
+}
+#Cruz4{
+    height: 6%;
+    position: absolute;
+    left: 99%;
+    bottom: 32.7%;
+}
+
+#Cruz5{
+    height: 6%;
+    position: absolute;
+    left: 99%;
+    bottom: 18%;
+}
+
+
+.delete:hover{
+    filter: invert(17%) sepia(100%) saturate(6398%) hue-rotate(14deg) brightness(106%) contrast(92%);
+}
+
+.BotonComprar{
+margin: auto;
+margin-top: 20px;
+width: 50px;
+
+}

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mercado de Bicis</title>
+    <link rel="icon" href="imagenes/BICIS LOGO.png">
+    <link rel="stylesheet" href="css/cssNuevaDireccion.css">
+</head>
+
+<body>
+    <main>
+        <section class="contenedorNuevaDireccion">
+            <div class="cont-logo">
+                <a href="index.html"><img id="logo" src="https://i.postimg.cc/0jcZqb7d/BICIS-LOGO.png" alt="logo"></a>
+            </div>
+
+            <div class="cajaNuevaDireccion1">
+                <form action="#" id="Nueva_Direccion" method="post">
+                    <div class="campoDelFormulario">
+                        <label for="Alias">Alias</label>
+                        <input type="text" name="Alias" id="Alias" placeholder="Ingrese su Alias">
+                    </div>
+
+                    <div class="campoDelFormularioPequeño">
+                        <label for="Provincia">Provincia</label>
+                        <select name="Provincia" id="Provincia" required>
+                            <option value="0"> ---------- </option>
+                            <option value="1">CABA</option>
+                            <option value="2">Buenos Aires</option>
+                            <option value="3">Entre Rios</option>
+                            <option value="4">Corrientes</option>
+                        </select>
+                    </div>
+
+                    <div class="campoDelFormularioPequeño">
+                        <label for="Localidad">Localidad</label>
+                        <select name="Localidad" id="Localidad" required>
+                            <option value="0"> ---------- </option>
+                            <option value="1">Morón</option>
+                            <option value="2">San Antonio de Padua</option>
+                            <option value="3">Tres de Febrero</option>
+                            <option value="4">San Justo</option>
+                            <option value="5">La Tablada</option>
+                        </select>
+                    </div>
+
+                    <div class="campoDelFormulario">
+                        <label for="Direccion">Direccion</label>
+                        <input type="text" name="Direccion" id="Direccion" placeholder="Ingrese su Direccion" required>
+                    </div>
+
+                    <div class="campoDelFormulario">
+                        <label for="Telefono">Telefono</label>
+                        <input type="tel" name="Telefono" id="Telefono" placeholder="Ingrese su Telefono" required>
+                    </div>
+
+                    <div class="campoDelFormularioPequeño">
+                        <label for="Piso">Piso</label>
+                        <input type="number" name="Piso" id="Piso" placeholder="Piso">
+                    </div>
+
+                    <div class="campoDelFormularioPequeño">
+                        <label for="Departamento">Departamento</label>
+                        <input type="number" name="Departamento" id="Departamento" placeholder="Departamento"> 
+                    </div>     
+                </form>
+            </div>
+
+            <div class="cajaNuevaDireccion2">
+                <button class="Boton" form="Nueva_Direccion">Guardar Direccion</button>
+                <a href="index.html" class="Boton">Volver a Inicio</a> 
+            </div>
+        </section>
+        
+        </section>
+
+    </main>
+
+
+</body>
+
+
+</html>

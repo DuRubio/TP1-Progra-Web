@@ -1,0 +1,205 @@
+:root {
+    --naranja: rgb(236, 128, 39);
+    --gris: rgb(228, 228, 228);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 80vh;
+    display: grid;
+    grid-template-rows: 1fr;
+}
+
+#logo {
+    width: 60%;
+    height: 100%;
+    border-radius: 20px;
+    border: 3px solid var(--naranja);
+}
+
+.contenedorPagar{
+    margin: 5% auto;
+    width:40%;
+    border:2px solid black;
+    border-radius: 30px;
+    background-color:rgb(16 60 126);
+}
+
+.cont-logo{
+    width: 40%;
+    margin: 10px auto;
+    height: 85px;
+    display: flex;
+    justify-content: center;
+   
+}
+.cont-logo a{
+    display: flex;
+    justify-content: center;
+    margin:auto;
+}
+
+.cajaPagar1{
+    border: 2px solid rgba(189, 176, 176, 0.493);
+    width: 80%;
+    margin:30px auto;
+    padding: 15px 0px 0px 0px;
+    background-color: rgb(16 60 126);
+}
+
+.cajaPagar1 form{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.campoDelFormulario{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 15px 0px;
+}
+
+.campoDelFormulario label{
+    margin:0px 20px;
+    color: wheat;
+}
+
+.campoDelFormulario input, .campoDelFormulario select{
+    margin:0px 20px;
+    height: 40px;
+    border: 2px solid rgba(189, 176, 176, 0.493);
+    padding-left: 5px;
+    font-size: 15px;
+}
+
+.campoDelFormulario input:hover, .campoDelFormulario select:hover{
+    border: 2px solid var(--naranja);
+}
+
+.campoDelFormularioPequeño{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    margin: 15px 0px;
+}
+
+.campoDelFormularioPequeño label{
+    margin:0px 20px;
+   
+}
+
+.campoDelFormularioPequeño input, .campoDelFormularioPequeño select{
+    margin:0px 20px;
+    height: 40px;
+    border: 2px solid rgba(189, 176, 176, 0.493);
+    padding-left: 5px;
+    font-size: 15px;
+}
+
+.campoDelFormularioPequeño input, .campoDelFormularioPequeño select:hover{
+    border: 2px solid var(--naranja);
+}
+
+.campoDelFormularioDiminuto{
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0px;
+   
+}
+
+.campoDelFormularioDiminuto label{
+    margin:0px 20px;
+    font-size: 12px;
+color: wheat;
+}
+
+.campoDelFormularioDiminuto input, .campoDelFormularioDiminuto select{
+    margin:0px 20px;
+    height: 30px;
+    border: 1px solid rgba(189, 176, 176, 0.493);
+    padding-left: 5px;
+    font-size: 12px;
+}
+
+.campoDelFormularioDiminuto input:hover, .campoDelFormularioDiminuto select:hover{
+    border: 1px solid var(--naranja);
+}
+
+.formularioOcultoTarjeta, .formularioOcultoDireccion{
+    display: none;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 0px;
+    visibility: hidden;
+    background-color: white;
+}
+
+.cajaPagar2{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   width: 55%;
+   margin: 10px auto 20px auto;
+}
+
+.Boton{
+    color:white;
+    text-decoration: none;
+    font-size: 100%;
+    border: 2px solid white;
+    border-radius: 10px;
+    background-color: var(--naranja);
+    cursor: pointer;
+    padding: 12px 2px;
+}
+
+.Boton:hover{
+    border: black solid 2px;
+    transition: 0.3s;
+}
+
+.botonPequeño{
+    color:white;
+    text-decoration: none;
+    font-size: 80%;
+    border: 2px solid white;
+    border-radius: 10px;
+    background-color: var(--naranja);
+    cursor: pointer;
+    padding: 10px 2px;
+    margin: 0px 20px 10px 20px;
+}
+
+.botonPequeño:hover{
+    border: black solid 2px;
+    transition: 0.3s;
+}
+
+#OtraTarjeta, #OtraDireccion{
+    display: none;
+}
+
+#OtraTarjeta:checked +.formularioOcultoTarjeta{
+    display: flex;
+    height: auto;
+    visibility: visible;
+    background-color: rgb(16 60 126);
+  
+ 
+}
+
+#OtraDireccion:checked +.formularioOcultoDireccion{
+    display: flex;
+    height: auto;
+    visibility: visible;
+    background-color: rgb(16 60 126);
+
+}

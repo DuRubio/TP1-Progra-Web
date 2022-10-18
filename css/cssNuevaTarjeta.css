@@ -1,0 +1,133 @@
+:root {
+    --naranja: rgb(236, 128, 39);
+    --gris: rgb(228, 228, 228);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    display: grid;
+    grid-template-rows: 1fr;
+}
+
+#logo {
+    width: 80%;
+    height: 100%;
+    border-radius: 20px;
+    border: 3px solid var(--naranja);
+}
+
+.contenedorNuevaTarjeta{
+    margin: 5% auto;
+    width:40%;
+    border:2px solid black;
+    border-radius: 30px;
+    background-color:rgb(16 60 126);
+}
+
+.cont-logo{
+    width: 40%;
+    margin: 10px auto;
+    height: 85px;
+    display: flex;
+    justify-content: center;
+   
+}
+.cont-logo a{
+    display: flex;
+    justify-content: center;
+    margin:auto;
+}
+
+.cajaNuevaTarjeta1{
+    border: 2px solid rgba(189, 176, 176, 0.493);
+    width: 80%;
+    height: 50%;
+    margin:30px auto;
+    padding: 15px 0px;
+    background-color: rgb(16 60 126);
+}
+
+.cajaNuevaTarjeta1 form{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    color: wheat;
+}
+
+.campoDelFormulario{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 15px 0px;
+}
+
+.campoDelFormulario label{
+    margin:0px 20px;
+}
+
+.campoDelFormulario input{
+    margin:0px 20px;
+    height: 40px;
+    border: 2px solid rgba(189, 176, 176, 0.493);
+    padding-left: 5px;
+    font-size: 15px;
+}
+
+.campoDelFormulario input:hover{
+    border: 2px solid var(--naranja);
+}
+
+.campoDelFormularioPequeño{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    margin: 15px 0px;
+}
+
+.campoDelFormularioPequeño label{
+    margin:0px 20px;
+}
+
+.campoDelFormularioPequeño input{
+    margin:0px 20px;
+    height: 40px;
+    border: 2px solid rgba(189, 176, 176, 0.493);
+    padding-left: 5px;
+    font-size: 15px;
+}
+
+.campoDelFormularioPequeño input:hover{
+    border: 2px solid var(--naranja);
+}
+
+.cajaNuevaTarjeta2{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   width: 55%;
+   margin: 10px auto 20px auto;
+}
+
+.Boton{
+    color:white;
+    text-decoration: none;
+    font-size: 100%;
+    border: 2px solid white;
+    border-radius: 10px;
+    background-color: var(--naranja);
+    cursor: pointer;
+    padding: 12px 2px;
+}
+
+.Boton:hover{
+    border: black solid 2px;
+    transition: 0.3s;
+}
+

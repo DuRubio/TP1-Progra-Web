@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mercado de Bicis</title>
+    <link rel="stylesheet" href="css/cssPagar.css">
+    <link rel="icon" href="imagenes/BICIS LOGO.png">
+</head>
+<body>
+    <section class="contenedorPagar">
+        <div class="cont-logo">
+            <a href="index.html"><img id="logo" src="https://i.postimg.cc/0jcZqb7d/BICIS-LOGO.png" alt="logo"></a>
+        </div>
+        <div class="cajaPagar1">
+            <form action="#" method="post" id="Pagar">
+                <div class="campoDelFormulario">
+                    <label for="Tarjeta">Tarjeta</label>
+                    <select name="Tarjeta" id="Tarjeta" >
+                        <option value="0"> -------- </option>
+                        <option value="1">American Express</option>
+                        <option value="2">Banco Santander</option>
+                        <option value="3">Banco HSBC</option>
+                        <option value="4">Ualá</option>
+                    </select>
+                </div>
+
+                <div class="botonPequeño">
+                    <label for="OtraTarjeta">Otra Tarjeta</label>
+                </div>
+
+                <input type="checkbox" id="OtraTarjeta">
+
+                <div class="formularioOcultoTarjeta">
+                    <div class="campoDelFormularioDiminuto">
+                        <label for="Alias">Alias</label>
+                        <input type="text" name="Alias" placeholder="Alias" required>
+                    </div>
+                    <div class="campoDelFormularioDiminuto">
+                        <label for="numeroTarjeta">Numero de Tarjeta</label>
+                        <input type="number" name="numeroTarjeta" placeholder="Numero de Tarjeta" required>
+                    </div>
+                    <div class="campoDelFormularioDiminuto">
+                        <label for="Codigo">Codigo</label>
+                        <input type="number" name="Codigo" placeholder="Codigo" required>
+                    </div>
+                    <div class="campoDelFormularioDiminuto">
+                        <label for="Vencimiento">Vencimiento</label>
+                        <input type="date" name="Vencimiento" placeholder="Vencimiento" required>
+                    </div>
+                    <div class="campoDelFormularioDiminuto">
+                        <label for="Nombre">Nombre</label>
+                        <input type="text" name="Nombre" placeholder="Nombre" required>
+                    </div>
+                    <div class="campoDelFormularioDiminuto">
+                        <label for="Apellido">Apellido</label>
+                        <input type="text" name="Apellido" placeholder="Apellido" required>
+                    </div>
+                </div>
+
+                <div class="campoDelFormulario">
+                    <label for="Direccion">Direccion</label>
+                    <select name="Direccion" id="Direccion">
+                        <option value="0"> -------- </option>
+                        <option value="1">Av. San Martin 297</option>
+                        <option value="2">Almafuerte 563</option>
+                    </select>
+                </div>
+                
+                <div class="botonPequeño">
+                    <label for="OtraDireccion">Otra Direccion</label>
+                </div>
+
+                <input type="checkbox" id="OtraDireccion">
+
+                <div class="formularioOcultoDireccion">
+                    <div class="campoDelFormularioDiminuto">
+                        <label for="Alias">Alias</label>
+                        <input type="text" name="Alias" placeholder="Alias" required>
+                    </div>
+                    <div class="campoDelFormularioDiminuto">
+                        <label for="numeroTarjeta">Numero de Tarjeta</label>
+                        <input type="number" name="numeroTarjeta" placeholder="Numero de Tarjeta" required>
+                    </div>
+                    <div class="campoDelFormularioDiminuto">
+                        <label for="Codigo">Codigo</label>
+                        <input type="number" name="Codigo" placeholder="Codigo" required>
+                    </div>
+                    <div class="campoDelFormularioDiminuto">
+                        <label for="Vencimiento">Vencimiento</label>
+                        <input type="date" name="Vencimiento" placeholder="Vencimiento" required>
+                    </div>
+                    <div class="campoDelFormularioDiminuto">
+                        <label for="Nombre">Nombre</label>
+                        <input type="text" name="Nombre" placeholder="Nombre" required>
+                    </div>
+                    <div class="campoDelFormularioDiminuto">
+                        <label for="Apellido">Apellido</label>
+                        <input type="text" name="Apellido" placeholder="Apellido" required>
+                    </div>
+                </div>
+
+            </form>
+           
+        </div>
+        <div class="cajaPagar2">
+            <button class="Boton" form="Pagar">Confirmar Compra</button>
+            <a href="index.html" class="Boton">Volver a Inicio</a> 
+        </div>
+    </section>
+</body>
+</html>
